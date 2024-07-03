@@ -1,0 +1,30 @@
+* {
+  font-size: 40px;
+  font-family: "Yeseva One", serif;
+
+  h1 {
+    font-size: 5vw;
+    color: #b89f25;
+    text-shadow: 7px 15px 10px black;
+  }
+}
+body {
+  background-color: lightblue;
+  background-image: url(money.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+label {
+  color: #b89f25;
+  font-size: 3vw;
+}
+
+input[type="number"] {
+  border-radius: 20px;
+  border-color: #b89f25;
+  box-shadow: 10px 10px 10px rgb(66, 3, 3);
+}
